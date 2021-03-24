@@ -3,10 +3,6 @@ I will only update my configuration files for the latest released versions. I wo
 
 Make sure your M208 in config.g is configured correctly for max and min.  
 
-Firmware versions:  
-Duet 2 Wifi RRF 3.2  
-Cube Duet 3 RRF 3.2  
-
 If upgrading from Duet RRF2 you need to update to RRF3.0.0 before going to the latest released version. After updating to RRF3.0.0 you can go to RRF3.#.#.  
 
 https://duet3d.dozuki.com/Wiki/Installing_and_Updating_Firmware#Section_Upgrading_a_Duet_WiFi_Ethernet_Maestro_from_firmware_2_x_to_3_01_or_later  

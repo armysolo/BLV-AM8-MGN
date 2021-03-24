@@ -8,3 +8,4 @@
 
 ## AM8 MGN CoreXY X Carriage ##  
 * I've modified the X carriage from the CoreXY to work with the AM8 MGN mod. You'll need to print the 7 parts from my mod that moves the linear rails to the outsides of 2040 and all 9 parts for the X carriage. This mod also moves the X endstop from the top of the 2020 to be recessed on the inside of the X Carriage Rear plate. It might not be necessary so you make the choice.  
+ 

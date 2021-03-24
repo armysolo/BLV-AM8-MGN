@@ -2,6 +2,7 @@
 I will only update my configuration files for the latest released versions. I won't do it for the beta versions because they change too frequent. If you find any issues PM me on Facebook. I'm trying to highlight any useful or important information so if I missed something I apologize.  
 
 Make sure your M208 in config.g is configured correctly for max and min.  
+This firmware will work without modifications needed ONLY if you follow my wiring diagrams. Study and understand the wiring diagrams before you start plugging things in.  
 
 If upgrading from Duet RRF2 you need to update to RRF3.0.0 before going to the latest released version. After updating to RRF3.0.0 you can go to RRF3.#.#.  
 

@@ -1,0 +1,7 @@
+M104 S0 ; turn off extruder
+M140 S0 ; turn off bed
+G1 X0 Y250 F5000 ; prepare for part removal
+;M84 ; disable motors
+M106 S0 ;turn off part cooling fan
+;M81 S1 ; shutdown
+M291 P"Printing finished !" R"Printing.." S1 T3

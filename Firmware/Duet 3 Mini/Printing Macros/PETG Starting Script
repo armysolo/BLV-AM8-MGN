@@ -1,0 +1,13 @@
+M291 P"Homing all axis" R"Printing.." S1 T2
+G21		; metric values
+G28		; home all
+G32		; Run mesh grid compenstion
+G92 E0 F100		; reset extruder
+G1 Z10 F3000 		; move z up little to prevent scratching of surface
+G1 X5 Y40 Z0.3 F5000.0 ; move to start-line position
+G1 X5 Y220.0 Z0.3 F1500.0 E15 ; draw 1st line
+G1 X5.3 Y220.0 Z0.3 F5000.0 ; move to side a little
+G1 X5.3 Y40 Z0.3 F1500.0 E30 ; draw 2nd line
+G1 E28 F3000 ; retract filament 2mm
+G92 E0 ; reset extruder
+M291 P"Printing started !" R"Printing.." S1 T3
